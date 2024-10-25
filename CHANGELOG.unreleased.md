@@ -12,11 +12,13 @@
 > Users must be able to say: “Nice enhancement, I'm eager to test it”
 
 - [REST API] Ability to pass a cloud configuration when creating VM (For Cloud-Init template) (PR [#8070](https://github.com/vatesfr/xen-orchestra/pull/8070))
+
 ### Bug fixes
 
 > Users must be able to say: “I had this issue, happy to know it's fixed”
 
 - [V2V] Fix failing transfer at the power off phase (PR [#7839](https://github.com/vatesfr/xen-orchestra/pull/7839))
+- [Remotes] Fix NFS remote encryption "ENOENT metadata.json" error (PR [#8081](https://github.com/vatesfr/xen-orchestra/pull/8081))
 
 ### Packages to release
 
@@ -35,6 +37,7 @@
 <!--packages-start-->
 
 - @vates/task minor
+- @xen-orchestra/fs patch
 - @xen-orchestra/web-core minor
 - @xen-orchestra/xapi minor
 - xen-api minor
